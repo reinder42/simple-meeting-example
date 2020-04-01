@@ -3,9 +3,13 @@ This is an example used
 in a lecture for the Hogeschool
 Utrecht regarding basic automated testing.
 
-Students are invited to take a
-look at the `src/test/java` for
-some examples on unit testing.
+Students are invited to take a look at:
+* the [pom.xml](https://github.com/arothuis-hu/simple-meeting-example/blob/master/pom.xml) 
+for Maven plug-ins, dependencies and goals
+* the [maven.yml](https://github.com/arothuis-hu/simple-meeting-example/blob/master/.github/workflows/maven.yml) 
+for configuration of the steps in the GitHub Actions build pipeline
+* the [test directory](https://github.com/arothuis-hu/simple-meeting-example/tree/master/src/test) 
+for examples of automated testing
 
 ## Badges
 ![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
