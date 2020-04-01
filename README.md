@@ -8,6 +8,7 @@ look at the `src/test/java` for
 some examples on unit testing.
 
 ![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
+[![codecov](https://codecov.io/gh/arothuis-hu/simple-meeting-example/branch/master/graph/badge.svg)](https://codecov.io/gh/arothuis-hu/simple-meeting-example)
 
 ## To do
 This example project, although useful,
