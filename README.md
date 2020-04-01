@@ -16,7 +16,7 @@ is incomplete.
 * Show more examples of using test doubles
 * Add Spring system tests
 * Add more internal integration tests
-* Register coverage using maven (CoCoMe)
+* Register coverage using maven (JaCoCo)
 * Display coverage on README
 * Add end-to-end tests using cucumber and Selenium
     * Requires a live application
