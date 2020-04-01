@@ -8,6 +8,9 @@ look at the `src/test/java` for
 some examples on unit testing.
 
 ## Badges
+![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
+[![codecov](https://codecov.io/gh/arothuis-hu/simple-meeting-example/branch/master/graph/badge.svg)](https://codecov.io/gh/arothuis-hu/simple-meeting-example)
+
 Badges can display the status and the metrics for your
 projects. 
 
@@ -21,14 +24,12 @@ over time.
 
 Right now, coverage could be better!
 
-![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
-[![codecov](https://codecov.io/gh/arothuis-hu/simple-meeting-example/branch/master/graph/badge.svg)](https://codecov.io/gh/arothuis-hu/simple-meeting-example)
-
 ## To do
 This example project, although useful, is incomplete.
 
+* Improve overall coverage
 * Add tests for controllers
-* Show more examples of using test doubles
+* Show more examples of test doubles using Mockito
 * Add Spring system tests
 * Add more internal integration tests
 * Add end-to-end tests using cucumber and Selenium
