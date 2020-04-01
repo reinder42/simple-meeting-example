@@ -11,7 +11,7 @@ for configuration of the steps in the GitHub Actions build pipeline
 * the [test directory](src/test) 
 for examples of automated testing
 * the [Postman collection](Simple%20Meeting.postman_collection.json)
-for empowering local development
+for empowering local development (import/export through the Postman GUI)
 
 ## Badges
 ![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
