@@ -9,13 +9,17 @@ some examples on unit testing.
 
 ## Badges
 Badges can display the status and the metrics for your
-projects. In this example, 
+projects. 
+
+In this example, 
 GitHub Actions is used as a build pipeline. The badge
 shows whether the recent build was successful.
 Coverage is generated via JaCoCo and Maven (see `pom.xml`).
 Afterwards, the coverage is published to codecov.
 Codecov gives an insight in the coverage of the project
-over time. Right now, it isn't that great!
+over time. 
+
+Right now, coverage could be better!
 
 ![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
 [![codecov](https://codecov.io/gh/arothuis-hu/simple-meeting-example/branch/master/graph/badge.svg)](https://codecov.io/gh/arothuis-hu/simple-meeting-example)
