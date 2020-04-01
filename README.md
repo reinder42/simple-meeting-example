@@ -7,11 +7,12 @@ Students are invited to take a
 look at the `src/test/java` for
 some examples on unit testing.
 
+![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 ## To do
 This example project, although useful,
 is incomplete.
 
-* Use GitHub Actions
 * Add tests for controllers
 * Show more examples of using test doubles
 * Add Spring system tests
