@@ -4,12 +4,14 @@ in a lecture for the Hogeschool
 Utrecht regarding basic automated testing.
 
 Students are invited to take a look at:
-* the [pom.xml](https://github.com/arothuis-hu/simple-meeting-example/blob/master/pom.xml) 
+* the [pom.xml](pom.xml) 
 for Maven plug-ins, dependencies and goals
-* the [maven.yml](https://github.com/arothuis-hu/simple-meeting-example/blob/master/.github/workflows/maven.yml) 
+* the [maven.yml](.github/workflows/maven.yml) 
 for configuration of the steps in the GitHub Actions build pipeline
-* the [test directory](https://github.com/arothuis-hu/simple-meeting-example/tree/master/src/test) 
+* the [test directory](src/test) 
 for examples of automated testing
+* the [Postman collection](Simple%20Meeting.postman_collection.json)
+for empowering local development
 
 ## Badges
 ![Java CI with Maven](https://github.com/arothuis-hu/simple-meeting-example/workflows/Java%20CI%20with%20Maven/badge.svg)
