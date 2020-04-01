@@ -24,15 +24,16 @@ In this example,
 GitHub Actions is used as a build pipeline. The badge
 shows whether the recent build was successful.
 Coverage is generated via JaCoCo and Maven (see `pom.xml`).
-Afterwards, the coverage is published to codecov.
-Codecov gives an insight in the coverage of the project
-over time. 
+Afterwards, the coverage is published to [codecov](https://codecov.io/#features).
+Codecov gives online insight in the coverage of the project
+over time.
 
 Right now, coverage could be better!
 
 ## To do
 This example project, although useful, is incomplete.
 
+* Allow more detailed coverage reports in codecov
 * Improve overall coverage
 * Add tests for controllers
 * Show more examples of test doubles using Mockito
