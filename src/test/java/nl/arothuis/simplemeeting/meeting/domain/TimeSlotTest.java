@@ -89,47 +89,29 @@ public class TimeSlotTest {
         assertNotEquals(timeSlot.hashCode(), differentTimeSlot.hashCode());
     }
 
+    // !!!
+
     @Test
     @DisplayName("falls within another time slot")
     void inAnotherTimeSlot() {
-        TimeSlot timeSlot = new TimeSlot(JANUARY, APRIL);
-        TimeSlot embeddedTimeSlot = new TimeSlot(FEBRUARY, MARCH);
-
-        boolean isWithin = embeddedTimeSlot.isWithin(timeSlot);
-
-        assertTrue(isWithin);
+        fail();
     }
 
     @Test
     @DisplayName("does not fall within another time slot")
     void notInAnotherTimeSlot() {
-        TimeSlot timeSlot = new TimeSlot(MARCH, APRIL);
-        TimeSlot outsideTimeSlot = new TimeSlot(JANUARY, FEBRUARY);
-
-        boolean isWithin = outsideTimeSlot.isWithin(timeSlot);
-
-        assertFalse(isWithin);
+        fail();
     }
 
     @Test
     @DisplayName("falls within another time slot with the same start")
     void inAnotherTimeSlotWithSameStart() {
-        TimeSlot timeSlot = new TimeSlot(JANUARY, APRIL);
-        TimeSlot embeddedTimeSlot = new TimeSlot(JANUARY, MARCH);
-
-        boolean isWithin = embeddedTimeSlot.isWithin(timeSlot);
-
-        assertTrue(isWithin);
+        fail();
     }
 
     @Test
     @DisplayName("falls within another time slot with the same end")
     void inAnotherTimeSlotWithSameEnd() {
-        TimeSlot timeSlot = new TimeSlot(JANUARY, APRIL);
-        TimeSlot embeddedTimeSlot = new TimeSlot(FEBRUARY, APRIL);
-
-        boolean isWithin = embeddedTimeSlot.isWithin(timeSlot);
-
-        assertTrue(isWithin);
+        fail();
     }
 }
